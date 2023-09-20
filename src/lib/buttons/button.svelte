@@ -4,6 +4,7 @@
   import { goto } from '$app/navigation';
   import Profile from "$lib/profile/profile.svelte"
 
+
     
   // Function to handle logout
   function handleLogout() {
@@ -27,9 +28,11 @@
 
   function candidatelist() {
     goto('/candidatelist');
+   
   }
   function joblist() {
     goto('/joblist');
+   
   }
 
   
@@ -58,7 +61,7 @@
  
  
 
-    /* Style for the containers */
+   
     .container {
   background-color: rgb(113, 113, 246);
   padding: 20px;
@@ -70,12 +73,12 @@
 }
 
 .container2 {
-    background-color: rgb(113, 113, 246);
+  background-color: rgb(113, 113, 246);
   padding: 20px;
   border-radius: 5px;
   width: 1535px;
   height: 70px;
-  margin-top: -90px;
+  margin-top: -80px;
   position: absolute;
 }
 
