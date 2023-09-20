@@ -44,10 +44,10 @@
          
           <span class="block truncate text-sm font-medium"  style="color: crimson; font-size:large">Hire Optica</span>
         </div>
-        <DropdownItem class="fa fa-building" style="font-size:18px"  on:click={Businessprofile} >Business Profile</DropdownItem>
+        <DropdownItem  style="font-size:15px"  on:click={Businessprofile} >Business Profile</DropdownItem>
       
       
-        <DropdownItem class="blue-text" slot="footer" on:click={handleLogout} >Logout</DropdownItem>
+        <DropdownItem  slot="footer" on:click={handleLogout} >Logout</DropdownItem>
        
       </Dropdown>
 
