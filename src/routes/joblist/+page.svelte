@@ -192,7 +192,7 @@
  </main>
 
  
- <img class="imag" src="https://img.icons8.com/?size=1x&id=2797&format=png" style="color:white;" alt="Click me" on:click={Homepage} />
+ <i class="fa fa-home" style="font-size:35px;color:white; position: absolute; top: 10px; left: 15px;" on:click={Homepage}></i>
 
  
  
