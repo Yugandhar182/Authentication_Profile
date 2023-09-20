@@ -41,7 +41,7 @@ function joblist() {
 <main>
 
     
-<h1 class="h1" style="color:red;">welcome to Hireoptica</h1>
+<h1 class="h1" style="color:red;">Welcome to Hire optica</h1>
 
 <div class="container">
     <h1 style="font-size: 29px; color: white; margin-top: 70px;" >ATS</h1>
