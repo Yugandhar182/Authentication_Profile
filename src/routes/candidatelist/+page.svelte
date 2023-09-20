@@ -28,7 +28,7 @@
     const dataGrid = new DevExpress.ui.dxDataGrid(document.getElementById("dataGrid"), {
       dataSource: gridData,
       columns: [
-        { dataField: "id", caption: "ID", width: 250 },
+        { dataField: "id", caption: "ID", width: 270 },
         { dataField: "firstName", caption: "Full Name", width: 200 },
         { dataField: "surname", caption: "Surname", width: 200 },
         { dataField: "email", caption: "Email", width: 200 },
@@ -36,6 +36,10 @@
         // Define other columns as needed
       ],
       showBorders: true,
+      showColumnLines:true,
+      showRowLines: true,
+ 
+      rowAlternationEnabled: true,
       filterRow: {
         visible: true,
       },
