@@ -66,7 +66,7 @@
        },
      },
      paging: {
-       pageSize: 14,
+       pageSize: 13,
      },
      onRowInserting: async (e) => {
        console.log("Data being sent to API:", e.data);
@@ -202,12 +202,13 @@ function Homepage() {
 
 
 .datagrid-container{
-  margin-top:10px ;
-  margin-right:5px;
-  margin-left: 200px;
-  height: 634px;
- }
-
+    margin-top:10px ;
+    margin-right:5px;
+    margin-left: 200px;
+    height: 620px;
+    width: 1330px;
+   }
+ 
 
 
  .h2 {
