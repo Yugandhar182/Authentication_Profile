@@ -47,10 +47,10 @@
     <div class="container">
       <h1 style="font-size: 29px; color: white; margin-top: 70px;" >ATS</h1>
       <div class="mb-6">
-    <i class="fa fa-mortar-board" on:click={candidatelist} style="font-size: 26px; color: white; margin-top: 45px;">Candidates</i>
+    <i class="fa fa-mortar-board" on:click={candidatelist} style="font-size: 26px; color: white; margin-top: 45px;cursor:pointer;">Candidates</i>
       </div>
       <div class="mb-6">
-    <i class="fa fa-briefcase"   on:click={joblist} style="font-size: 26px; color: white; margin-top: 30px;" >Jobs</i>
+    <i class="fa fa-briefcase"   on:click={joblist} style="font-size: 26px; color: white; margin-top: 30px;cursor:pointer;" >Jobs</i>
       </div>
   </div>
 </main>
