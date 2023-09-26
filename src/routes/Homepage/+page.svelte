@@ -59,7 +59,7 @@ function joblist() {
 <style>
 
 .container {
-      background-color: rgb(113, 113, 246);
+  background-color:rgb(45, 36, 220);
       padding: 20px;
      border-radius: 5px;
      width:172px;
@@ -73,7 +73,7 @@ function joblist() {
     font-size:80px;
   }
   .container2 {
-    background-color: rgb(113, 113, 246);
+    background-color:rgb(45, 36, 220);
       padding: 20px;
      border-radius: 5px;
      width: 1535px;
