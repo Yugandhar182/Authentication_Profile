@@ -559,7 +559,7 @@ if (event && event.detail && event.detail.value) {
 	}
 
     .container1 {
-        background-color: rgb(113, 113, 246);
+        background-color:rgb(45, 36, 220);
         padding: 20px;
        border-radius: 5px;
        width:172px;
@@ -569,7 +569,7 @@ if (event && event.detail && event.detail.value) {
     }
   
     .container2 {
-      background-color: rgb(113, 113, 246);
+        background-color:rgb(45, 36, 220);
         padding: 20px;
        border-radius: 5px;
        width: 1535px;
